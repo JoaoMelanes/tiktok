@@ -14,7 +14,7 @@ export const style = StyleSheet.create({
         alignItems: "center",
         position:"absolute",
         zIndex: 999999,
-        padding:10,
+        padding:15,
         backgroundColor:"transparent"
     },
     textSearch: {
@@ -31,4 +31,12 @@ export const style = StyleSheet.create({
         color: 'gray',
         margin: -80  
     },
+    playButton: {
+        marginTop: 40,
+        marginLeft:20,
+        zIndex:99,
+        position:'absolute',
+        width:"90%",
+        height:"80%",
+    }
 })
